@@ -1,4 +1,4 @@
-var rrid_regex = /RRID:[^\s\)]+/;
+var rrid_regex = /(RRID(:|\)*,*)[ \t]*)(\w+[_\-:]+[\w\-]+)/;
 
 var nodes = textNodesUnder(document.body);
 
